@@ -1,0 +1,238 @@
+@import url('//sj926thwjdk.cafe24.com/baskinRabbins/css/font.css');
+
+
+* {font-family: 'IBMPlexSansKR-Regular',sans-serif!important}
+* a {color:#222}
+* a:hover {color:#222; text-decoration:none;}
+h1,h2,h3,h4,h5,h6 {font-size:38px;font-family:'Cafe24Ssurround',sans-serif!important;font-weight: normal; margin-bottom:0;}
+ul {margin-bottom:0;}
+p {margin-bottom:0}
+.container {max-width:1280px; margin:0 auto;}
+
+
+
+
+.move1,.move2,.move3,.move4 {transition:all 0.3s}
+/* 네비게이션 */
+
+header nav {
+  height:60px;
+  background: url(/baskinRabbins/img/background.gif) no-repeat;
+}
+header nav button {display:none; border-style:none; background-color:transparent;}
+header nav h1 img {width:150px;}
+
+
+.scroll header nav {
+  position:fixed; z-index:10000;
+  background-color:#fff;
+  width:100%; height:60px;
+  box-shadow: 0 2px 5px rgb(10 10 10 / 15%);
+}
+
+
+/* 배너 */
+.mainBanner {width:100%; text-align:center;}
+#banner img { max-width:100%; height:auto;}
+
+#banner {position:relative; height:0; padding-bottom:36.9%; }
+#banner img {position:absolute; left:0; top:0; width:100%; height:100%; }
+
+/* intro */
+#intro {
+  padding:80px 0 150PX;
+  background-size:contain;
+  background:url(/baskinRabbins/img/bg.jpg) no-repeat center;
+}
+#intro .container {max-width:1603px}
+#intro::before {
+  content:''; display:block;
+  width:11px; height: 36px; margin:0 auto;
+  margin-bottom:30px;
+  background: url(/baskinRabbins/img/icon_title_top.png) no-repeat;
+}
+#intro img {width:180px;}
+#intro .newKinds .icecreamKinds li  {
+  position:relative;
+  margin-right:20px;
+  border:1px solid #ddd;
+  border-radius:10px;
+  background:#fff;
+}
+#intro .newKinds .icecreamKinds li p {position:absolute;left:8px; bottom:0;font-weight: 600;color:#f7bf12;}
+.icecreamKindsBox {width:800px;margin:80px auto 0 }
+.icecreamKinds {width:400px;}
+
+
+
+.youtube {position:relative; width:745px; height:0;margin:0 auto; padding-bottom:26.5%;}
+.youtube iframe {position:absolute; left:0; top:0; width:100%; height:100%; }
+
+
+
+/* event */
+#event {padding:100px 0;background-color:#ee839d; }
+#event h2 {margin-bottom:80px;color:#fff}
+#event  .container {max-width:1350px; margin:0 auto;}
+.eventList li{width: 400px;}
+.eventList li img {width:400px;border-radius:10px;}
+
+
+
+.explanation p {margin-right:27px;}
+.explanation ul {width:426px; margin:0 auto;}
+/* .eventList li {background-color:#fff;padding:25px; border-radius:25px;} */
+
+.explanation li p {position:relative;  color:#fff }
+.explanation li p.participation::before {
+  content:''; display:inline-block;
+  position:absolute;left:-13px; top:-2.5px;
+  z-index:-1;
+  width:80px; height:30px;
+  border-radius:15px;
+  background-color:#163e82;
+}
+.explanation li p::before {
+  content:''; display:inline-block;
+  position:absolute;left:-13px; top:-2.5px;
+  z-index:-1;
+  width:100px; height:30px;
+  border-radius:15px;
+  background-color:#163e82;
+}
+
+#event .eventList ul li {position:relative;}
+#event .txt {
+  color:#fff;
+  font-size:20px; padding-top:25px;
+  border-radius:0 0 10px 10px;
+}
+
+#event .eventList ul li:hover a { }
+
+
+
+/* sns */
+#sns {margin:150px auto;}
+#sns h2::before {
+  content:''; display:inline-block;
+  width:36px; height:11px;
+  margin-right:20px;
+  background-image:url(/baskinRabbins/img/spoon_left.png);
+}
+#sns h2::after {
+  content:''; display:inline-block;
+  width:36px; height:11px;
+  margin-left:20px;
+  background-image:url(/baskinRabbins/img/spoon_right.png);
+}
+
+#sns .inner {max-width:850px;margin:0 auto}
+#sns .sns1 img,#sns .sns2 img {width:200px;}
+#sns .explanation {margin-bottom:100px;}
+
+
+
+
+
+
+/* add */
+#add {
+  position:relative;
+  height:600px;
+  background-size:contain;
+  background:url(/baskinRabbins/img/bg.jpg) no-repeat center;
+}
+/* #add:after {
+  content:'';
+  display:block;
+  position:absolute;
+  bottom:0; left:0;
+  width:100%;
+  height:100%;
+  background:url(/baskinRabbins/img/downBg2.png) no-repeat center;
+} */
+#add .container {max-width:725px;}
+#add .addIceCream {margin-top:100px;}
+#add .addIceCream .inner {max-width:1200px;}
+#add .addIceCream div {text-align: center;}
+#add .addIceCream div img{border-radius:50%; background-color:#f4f4f4;}
+#add .addIceCream img {width:150px;}
+#add .addIceCream li {margin:20px;}
+
+
+.bg {
+  position:absolute;
+  bottom:0; left:0;
+  height:300px; width:100%;
+  background-size:contain;
+  background:url(/baskinRabbins/img/downBg2.png) no-repeat center;
+}
+
+
+
+
+
+/* footer */
+footer {padding:30px 0 20px;color:#fff; background-color:#5a5a5a}
+
+footer a {color:#fff}
+footer a:hover {color:#fff}
+
+
+
+
+
+
+
+
+
+/* .mainBanner img {position:absolute; top:0; left:0; right:0; height:100%;} */
+@media (max-width:991px) {
+  header nav button {display:block; border-style:none; background-color:transparent; outline:none;}
+  header nav div {position:relative;}
+  #gnb {display: none;}
+  #gnb.open {
+    display: block;
+    position:absolute; top:95%; right:0;
+    z-index:10000;
+    width:100%; height:176px;
+    background-color:rgba(0,0,0,0.8);
+
+  }
+  #add .addIceCream {margin-top:0}
+
+  #gnb li a {display:block; padding:10px 0;text-align: center;color:#fff;}
+  #banner {padding-bottom:100%; background-size:contain; background-image:url(/baskinRabbins/img/banner991.jpg);}
+  #banner img {visibility: hidden}
+
+  .eventList {width:400px; margin:0 auto;}
+
+  .youtube {width:100%!important;padding-bottom:56%; }
+  .youtube iframe {width:100%!important; height:100%; }
+  /* #add,.bg {background-size:contain;} */
+  .icecreamKindsBox {width:400px;margin:80px auto 0 }
+  .icecreamKinds {width:200px; margin:0 auto}
+  #sns .sns1 img,#sns .sns2 img {width:145px;}
+  #add {height:883px;}
+  #sns .inner {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+}
+
+
+
+@media (max-width:537px) {
+  .explanation ul {width:405px; margin:0 auto;}
+
+}
+
+@media (max-width:461px) {
+  #add .container {}
+  #sns .sns1 img,#sns .sns2 img {width:120px;}
+  #add {height: 713px;}
+  #add .addIceCream img {width:100px;}
+
+}
